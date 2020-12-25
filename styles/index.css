@@ -1,0 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/77f92dc516bc072923addac1da40ed0f?family=Lota+Grotesque);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lota Grotesque"; 
+}
+
+a {
+    text-decoration: none;
+    color:  #000000;
+}
