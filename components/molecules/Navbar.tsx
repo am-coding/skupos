@@ -9,8 +9,7 @@ interface navItemsProps {
 }
 
 const StyledNavbar = styled.div`
-    height: 6rem;
-    background-color:rgb(78, 192, 196, 0.15);
+    height: 5em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     li {
@@ -19,13 +18,13 @@ const StyledNavbar = styled.div`
         font-weight: 600;
     }
     p {
-        margin-right: 2rem;
+        margin-right: 2em;
         font-weight: 600;
     }
     .nav-items {
         display: flex;
         justify-content: flex-start;
-        margin-left: 1rem;
+        margin-left: 1em;
         align-items: center;
     }
     .logo {
@@ -37,10 +36,10 @@ const StyledNavbar = styled.div`
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-right: 3rem;
+        padding-right: 3em;
     }
     .nav-items li {
-        margin-right: 5rem;
+        margin-right: 5em;
     }
     .nav-items li:last-child {
         margin-right: 0;
@@ -59,7 +58,7 @@ const Navbar: FC<navItemsProps> = ({items}) => {
                 {navItems}
             </div>
             <div className="logo">
-                <img src="/Group.png" alt="logo" width="110px" height="auto" />
+                <img src="/Frame.png" alt="logo" width="110px" height="auto" />
             </div>
             <div className="btn-div">
                <p><Link href="/">Log in</Link></p>

@@ -49,3 +49,18 @@ export const gridData = [
       src: '/grid-3.png'
    },
 ]
+
+export const article = [
+   {
+      tag: 'article',
+      title: 'The Makers of 5-hour ENERGY® shots and Skupos Join Forces to Give Independent...'
+   },
+   {
+      tag: 'report',
+      title: 'How a Midwest Retailer Grew Revenue with Skupos Amidst a Pandemic'
+   },
+   {
+      tag: 'report',
+      title: 'Skupos Announces Compatibility With 70% of the Convenience Retail Market'
+   }
+]
