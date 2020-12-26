@@ -16,10 +16,12 @@ const StyledNavbar = styled.div`
         list-style: none;
         text-align: center;
         font-weight: 600;
+        font-size: 0.8em;
     }
     p {
         margin-right: 2em;
         font-weight: 600;
+        font-size: 0.8em;
     }
     .nav-items {
         display: flex;
