@@ -44,6 +44,14 @@ const StyledNavbar = styled.div`
     .nav-items li:last-child {
         margin-right: 0;
     }
+    @media only screen and (max-width: 600px) {
+        li {
+            display: none;
+        }
+        .btn-div {
+            display: none;
+        }
+    }
 `
 
 const Navbar: FC<navItemsProps> = ({items}) => {
