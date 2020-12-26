@@ -86,9 +86,6 @@ const StyledResourcesHero = styled.div`
     .article-heading {
         font-size: 1.4em;
     }
-    .hero-img {
-        width: 24em;
-        height: 17em;
     }
     }
     @media (min-width: 120em) {
@@ -98,9 +95,14 @@ const StyledResourcesHero = styled.div`
     .article-heading {
         font-size: 1.6em;
     }
-    .hero-img {
-        width: 32em;
-        height: 18em;
+    }
+    @media (max-width: 1300px) {
+    .container {
+        margin: 0 8%;
+    }
+    .article {
+        margin-right: -2em;
+        padding-bottom: 1em;
     }
     }
     @media only screen and (max-width: 37.5em) {
